@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:GyjyagaraARaAra"
         mc:Ignorable="d"
         WindowStyle="None"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="789" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="245*"/>
@@ -20,5 +20,7 @@
         </Grid.RowDefinitions>
         <TextBlock Text="хахахахах, припет))))"
                    FontSize="50" Grid.ColumnSpan="3" Margin="162,58,162,57" Grid.Row="1"/>
+        <TextBlock
+            FontSize="50" Grid.ColumnSpan="3" Margin="93,10,28,-10" Grid.Row="2"><Run Language="ru-ru" Text="Приплет попет наглет амлет"/></TextBlock>
     </Grid>
 </Window>
